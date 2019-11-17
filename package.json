@@ -1,0 +1,38 @@
+{
+  "name": "@luban-h5/lbp-slide",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "npm run build:component && npm run build:editor",
+    "lint": "vue-cli-service lint",
+    "build:component": "vue-cli-service build --target lib --name lbp-slide ./src/component/index.js",
+    "build:editor": "vue-cli-service build --no-clean --target lib --name editor ./src/component/editor.vue"
+  },
+  "main": "dist/index.umd.min.js",
+  "dependencies": {
+    "@luban-h5/lbs-text-align": "^0.0.3",
+    "ant-design-vue": "^1.2.4",
+    "axios": "^0.19.0",
+    "core-js": "^3.3.2",
+    "font-awesome": "4.7.0",
+    "vant": "^2.2.13",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.18.2",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "license": "MIT"
+}
