@@ -9,7 +9,7 @@
     "build:component": "vue-cli-service build --target lib --name lbp-slide ./src/component/index.js",
     "build:editor": "vue-cli-service build --no-clean --target lib --name editor ./src/component/editor.vue"
   },
-  "main": "dist/index.umd.min.js",
+  "main": "dist/lbp-slide.umd.min.js",
   "dependencies": {
     "@luban-h5/lbs-text-align": "^0.0.3",
     "ant-design-vue": "^1.2.4",
