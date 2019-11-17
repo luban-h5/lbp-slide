@@ -6,7 +6,7 @@ import PropsPanelWrapper from './wraper/props.js'
 import { getVM } from './utils.js'
 
 // 引入组件，并全局注册
-import LbpComponent from '../component/index.vue'
+import LbpComponent from '../component/index.js'
 
 Vue.component(LbpComponent.name, LbpComponent)
 
