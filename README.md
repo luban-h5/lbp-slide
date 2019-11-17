@@ -1,24 +1,15 @@
 # @luban-h5/lbp-slide
+> #!zh: 鲁班H5官方 轮播图组件
+
+> #!en: official slide/carousel plugin/component for luban-h5
 
 ## Project setup
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
-```
 
-### Compiles and minifies for production
-```
+# modify version number in package.json
+# publish to npm registry
 yarn build
+npm publish --access public
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
