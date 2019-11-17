@@ -76,6 +76,11 @@ export default {
 
       const activatorWithImg = (
         <div onClick={this.showGallery}>
+          {/*
+             TODO 在这里增加 v-lazy 指令，防止
+            「在开发者模式下，打开 disable cache，导致图片加载时间过长，导致看起来像点击 pagination 没有反应，误以为代码有错误」
+             加了 v-lazy，之后，切换不同的图片，即使图片没有加载，但是会实现loading，会让开发者知道，并不是 bug，而是图片加载需要时间
+          */}
           <div class="default-activator cursor-pointer "><img src={this.value} width="50%" style={{ margin: 'auto' }} /></div>
           <div class="flex-space-between" style="margin-top: 8px;">
             <a-button size="small">更换</a-button>
