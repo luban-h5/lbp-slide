@@ -1,13 +1,17 @@
 {
   "name": "@luban-h5/lbp-slide",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:component && npm run build:editor",
     "lint": "vue-cli-service lint",
     "build:component": "vue-cli-service build --target lib --name lbp-slide ./src/component/index.js",
-    "build:editor": "vue-cli-service build --no-clean --target lib --name editor ./src/component/editor.vue"
+    "build:editor": "vue-cli-service build --no-clean --target lib --name editor ./src/component/editor.vue",
+    "release-f": "standard-version -f",
+    "release-major": "standard-version -r major",
+    "release-minor": "standard-version -r minor",
+    "release-patch": "standard-version -r patch"
   },
   "main": "dist/lbp-slide.umd.min.js",
   "dependencies": {
@@ -32,6 +36,7 @@
     "node-sass": "^4.13.0",
     "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
+    "standard-version": "^7.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "license": "MIT"
