@@ -1,6 +1,6 @@
 {
   "name": "@luban-h5/lbp-slide",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
