@@ -1,6 +1,6 @@
+![npm (scoped)](https://img.shields.io/npm/v/@luban-h5/lbp-slide?color=blue)
 
 ### @luban-h5/lbp-slide
-![npm (scoped)](https://img.shields.io/npm/v/@luban-h5/lbp-slide?color=blue)
 
 
 > #!zh: 鲁班H5官方 轮播图组件
