@@ -1,13 +1,14 @@
 {
   "name": "@luban-h5/lbp-slide",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:component && npm run build:editor",
     "lint": "vue-cli-service lint",
-    "build:component": "vue-cli-service build --target lib --name lbp-slide ./src/component/index.js",
+    "build:component": "vue-cli-service build --inline-vue --target lib --name lbp-slide ./src/component/index.js",
     "build:editor": "vue-cli-service build --no-clean --target lib --name editor ./src/component/editor.vue",
+    "publish:npm": "npm publish --access public",
     "release-f": "standard-version -f",
     "release-major": "standard-version -r major",
     "release-minor": "standard-version -r minor",
