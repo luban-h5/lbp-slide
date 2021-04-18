@@ -14,6 +14,8 @@ import 'vant/lib/swipe/style'
 import 'vant/lib/swipe-item/style'
 
 export default {
+  // 在 https://fontawesome.com/v4.7.0/icons/ 中寻找对应的 icon，填入 icon 字段即可
+  icon: 'photo',
   name: 'lbp-slide',
   components: {
     Swipe,
